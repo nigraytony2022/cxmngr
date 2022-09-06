@@ -23,11 +23,11 @@ const routes = [
   },
   {
     meta: {
-      title: "Tables",
+      title: "Projects",
     },
-    path: "/tables",
-    name: "tables",
-    component: () => import("@/views/TablesView.vue"),
+    path: "/projects",
+    name: "projects",
+    component: () => import("@/views/ProjectsView.vue"),
   },
   {
     meta: {
@@ -76,6 +76,14 @@ const routes = [
     path: "/error",
     name: "error",
     component: () => import("@/views/ErrorView.vue"),
+  },
+  {
+    meta: {
+      title: "Tasks",
+    },
+    path: "/tasks",
+    name: "tasks",
+    component: () => import("@/views/TasksView.view"),
   },
 ];
 
